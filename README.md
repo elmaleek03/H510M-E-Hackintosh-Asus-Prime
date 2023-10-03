@@ -1,12 +1,12 @@
 # H510M-E-Hackintosh-Asus-Prime
 
-A guide for installing macOS Big Sur on Asus Prime H510M-E using OpenCore.
+A repo for installing macOS Ventura - Sonoma on Asus Prime H510M-E using OpenCore.
 ![](Images/Screenshot.png)
 
 
 # PC's Hardware 
-- <b>CPU</b>: [Intel i3 10105F](https://www.intel.co.id/content/www/id/id/products/sku/203474/intel-core-i310105f-processor-6m-cache-up-to-4-40-ghz/specifications.html) Quad-Core CPU 2.1Ghz (Comet Lake-U)
-- <b>GPU</b>: XFX AMD Radeon RX 6600 8GB
+- <b>CPU</b>: [Intel i3 10105F](https://www.intel.co.id/content/www/id/id/products/sku/203474/intel-core-i310105f-processor-6m-cache-up-to-4-40-ghz/specifications.html) Quad-Core CPU 3.7Ghz (Comet Lake-U)
+- <b>GPU</b>: XFX SWFT 210 AMD Radeon RX 6600 8GB
 - <b>Storage</b>: 512GB Midasforce SATA SSD
 - <b>RAM</b>: 16 GB DDR4 2666MHz
 - <b>Wi-Fi</b>: TL-WN722N-V3 USB Wi-Fi Dongle
