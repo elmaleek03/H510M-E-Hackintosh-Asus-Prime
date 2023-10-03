@@ -5,7 +5,7 @@ A guide for installing macOS Big Sur on Asus Prime H510M-E using OpenCore.
 
 
 # PC's Hardware 
-- <b>CPU</b>: [Intel i3 10105F](https://ark.intel.com/content/www/id/id/ark/products/91157/intel-core-i3-6006u-processor-3m-cache-2-00-ghz.html) Quad-Core CPU 2.1Ghz (Ice Lake-U)
+- <b>CPU</b>: [Intel i3 10105F](https://www.intel.co.id/content/www/id/id/products/sku/203474/intel-core-i310105f-processor-6m-cache-up-to-4-40-ghz/specifications.html) Quad-Core CPU 2.1Ghz (Comet Lake-U)
 - <b>GPU</b>: XFX AMD Radeon RX 6600 8GB
 - <b>Storage</b>: 512GB Midasforce SATA SSD
 - <b>RAM</b>: 16 GB DDR4 2666MHz
