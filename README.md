@@ -7,10 +7,10 @@ A repo for installing macOS Ventura - Sonoma on Asus Prime H510M-E using OpenCor
 # PC's Hardware 
 - <b>CPU</b>: [Intel i3 10105F](https://www.intel.co.id/content/www/id/id/products/sku/203474/intel-core-i310105f-processor-6m-cache-up-to-4-40-ghz/specifications.html) Quad-Core CPU 3.7Ghz (Comet Lake-U)
 - <b>GPU</b>: XFX SWFT 210 AMD Radeon RX 6600 8GB
-- <b>Storage</b>: 512GB Midasforce SATA SSD
+- <b>Storage</b>: 256GB Toshiba THNSN5256GPUK NVMe PCIe SSD
 - <b>RAM</b>: 16 GB DDR4 2666MHz
 - <b>Wi-Fi</b>: TL-WN722N-V3 USB Wi-Fi Dongle
-- <b>Bluetooth</b>: Orico BTA-403-BK CSR USB Bluetooth Dongle
+- <b>Bluetooth</b>: Orico BTA-403-BK (CSR8510 A10) USB Bluetooth Dongle
 
 # Overview 
 
@@ -18,7 +18,7 @@ A repo for installing macOS Ventura - Sonoma on Asus Prime H510M-E using OpenCor
 Everything Works 
 
 # What's Not Working?
-IDK looks like everything works flawlessly
+- Handoff / Airplay / Apple Continuity Features seems needs an official Wifi/BT Cards
 
 # Bugs
 - ?
@@ -32,7 +32,6 @@ to be written
 - [RehabMan](https://github.com/RehabMan) for some ACPI patches.
 - [Steve Zheng](https://github.com/stevezhengshiqi) for some patches.
 - [zhen-zen](https://github.com/zhen-zen) for YogaSMC.
-- [Hiep Bao Le](https://github.com/hieplpvip) for AppleBacklightSmoother
 - [Sniki](https://github.com/Sniki) for some patches.
 - [daliansky](https://github.com/daliansky) for some ACPI patches.
 - [Moh_Ameen](https://github.com/ameenjuz) for some ACPI patches.
