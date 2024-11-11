@@ -1,18 +1,21 @@
 # H510M-E-Hackintosh-Asus-Prime
 
-A repo for installing macOS Ventura - Sonoma on Asus Prime H510M-E using OpenCore.
+A repo for installing macOS Ventura - Sequoia on Asus Prime H510M-E using OpenCore.
 ![](Images/Screenshot.png)
-
 
 # PC's Hardware 
 - <b>CPU</b>: [Intel i3 10105F](https://www.intel.co.id/content/www/id/id/products/sku/203474/intel-core-i310105f-processor-6m-cache-up-to-4-40-ghz/specifications.html) Quad-Core CPU 3.7Ghz (Comet Lake-U)
-- <b>GPU</b>: XFX SWFT 210 AMD Radeon RX 6600 8GB
-- <b>Storage</b>: 256GB Toshiba THNSN5256GPUK NVMe PCIe SSD
-- <b>RAM</b>: 16 GB DDR4 2666MHz
-- <b>Wi-Fi</b>: TL-WN722N-V3 USB Wi-Fi Dongle
-- <b>Bluetooth</b>: Orico BTA-403-BK (CSR8510 A10) USB Bluetooth Dongle
+- <b>GPU</b>: MSI MECH 2x 8G - AMD Radeon RX 6600 8GB
+- <b>Storage</b>: 1TB ADATA S70 Blade NVMe PCIe 4.0 SSD - runs at PCIe 3.0
+- <b>RAM</b>: 32Gb runs at 2666MHz DDR4 - 2x 16Gb T-Create Expert 3600MHz DDR4 
+- <b>Wi-Fi & Bluetooth</b>: WiFI 6E Intel AX210 PCIe Card - Connected using adapter into PCIe 1x Slot
 
-# Overview 
+# Overview
+- <b>OC Version </b>: 1.0.2 Release
+- <b>SMBIOS </b>: MacPro7,1 (prefer this SMBIOS because my rig has only dGPU and no iGPU at all)
+
+# Notes
+- Fixed AMD Firmware Metal performance drop. Geekbench 6 Metal benchmark improved ~25% performance after this fix. see [before](https://browser.geekbench.com/v6/compute/1804628) and [after](https://browser.geekbench.com/v6/compute/3105699)
 
 # What's Working?
 Everything Works 
@@ -21,7 +24,8 @@ Everything Works
 - Handoff / Airplay / Apple Continuity Features seems needs an official Wifi/BT Cards
 
 # Bugs
-- ?
+
+- AMD (Navi) Cards (Especially this MSI Card) had issue when booting using -v (verbose) boot-args, you will face restart / black screen right after the verbose finished. sometimes it needs 2-3x times to boot into system. **Issue fixed by removing -v from boot-args**
 
 # BIOS Configuration
 to be written
@@ -36,6 +40,4 @@ to be written
 - [daliansky](https://github.com/daliansky) for some ACPI patches.
 - [Moh_Ameen](https://github.com/ameenjuz) for some ACPI patches.
 - [blackosx](https://github.com/blackosx/OpenCanopyIcons) for OpenCanopyIcons theme.
-- [al3xtjames](https://github.com/al3xtjames) for clover-theme-oss theme.
-- [ImmersiveX](https://github.com/ImmersiveX) for clover-theme-minimal-dark theme.
-- And anyone else that helped to develop and improve hackintoshing.
+- And everyone that helped to develop and improve hackintoshing.
